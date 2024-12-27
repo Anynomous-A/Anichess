@@ -76,6 +76,85 @@
     height: 120px;
 
 }
+.tes{
+    background-image: url(Neon.jpg);
+    margin-left: 600px;
+    border: solid;border-color: rgba(0, 0, 0, 0.978);
+    width: 250px;
+    height: 100px;
+}
+.home{
+    display: flex;
+    flex-direction: column;  width: 380px;
+    height: 620px;
+    background-image: url(aaaa.png);
+    margin-left: 540px;border-radius: 10px;border: 40px solid;
+    border: solid;animation-name: ma;animation-iteration-count: infinite;animation-duration: 3s;
+  
+    margin-top: 20px;
+}
+a:active
+{
+    color: rgb(0, 0, 0);
+ 
+}
+.input{
+    background-color: rgb(119, 81, 114);color: rgb(38, 5, 33);width: 275px;height: 35px;border-radius: 8px;font-size: 19px;
+    padding-left: 45px;
+}
+input::placeholder{
+    color: rgb(38, 5, 33);
+    
+}
+.log{
+    width: 300px;height: 60px;border-radius: 10px;background-color: rgb(80, 44, 69);color: #a886a0;
+
+}
+.log:hover{
+    background-color: rgb(151, 81, 205);
+    transition-delay: 100ms;
+    color: rgb(32, 30, 30);
+    border-width: 2px;
+    animation-name: exm;
+    
+       animation-duration: 3s;
+       animation-iteration-count: infinite;    
+} 
+@keyframes exm{
+   0% {background-color : rgb(151, 81, 205); color: rgb(32, 30, 30);}
+   50% {background-color: rgb(80, 44, 69);color: #a886a0; }
+   100%{background-color : rgb(151, 81, 205); color: rgb(32, 30, 30);}
+}   
+@keyframes ma{
+    
+    0% {
+        border-top-color:  rgb(167, 87, 175);
+    }25%{
+        border-right-color:    rgb(167, 87, 175);
+    }
+    12.5%{
+        border-top-color:  rgb(252, 251, 255);
+    }
+      50%{ border-bottom-color:    rgb(167, 87, 175);
+   }
+    37.5%{
+        border-right-color:  rgb(228, 222, 222); 
+    }
+ 
+   62.5%{  border-bottom-color: rgb(255, 244, 244);
+}
+
+75%{
+    border-left-color:   rgb(167, 87, 175);
+}
+89%{
+    border-left-color:  rgb(255, 250, 250);
+}
+100% {
+    border-top-color:  rgb(167, 87, 175);
+
+}
+}
 
 a{
     text-decoration: none;
