@@ -1,0 +1,86 @@
+
+.C{
+
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 1600px;
+    color: rgb(255, 255, 255);
+    height: 745px;
+    text-align: center;
+
+
+
+}
+.elements{ 
+    padding: 35px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.Eelements{
+
+ padding: 40px;
+
+
+}
+
+
+.btn1{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 700px;
+    
+
+}
+.r{
+    border-style: none ;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    background-image: url("Anipics/a\ violet\ fantasy\ theme\ image\ with\ 900x120\ dimensions.png");
+   
+} 
+.r2{
+    
+    background-color: blueviolet;
+    height: 170px;
+}
+.r3{
+    color: aliceblue;
+    background-color: rgb(100, 21, 174);
+    height: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+.r4{
+    background-color: rgb(87, 0, 168);
+    height: 130px;
+
+
+
+}
+.r5{
+    background-color: rgb(130, 61, 195);
+    height: 120px;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
